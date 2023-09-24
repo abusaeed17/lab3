@@ -1,0 +1,26 @@
+.image-preview img {
+  border-top: 30px solid skyblue;
+  border-right: 30px solid lightpink;
+  border-left: 30px solid #ffefd5;
+  border-bottom: 30px solid lightgreen;
+}
+
+table.mytable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table.mytable th,
+table.mytable td {
+  border: 2px solid #ffcc00;
+  padding: 15px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+table.mytable tr td:first-child {
+  font-weight: bold;
+  color: #ff0066;
+  background-color: #ffe6e6;
+}
